@@ -457,7 +457,7 @@ const GUIDE_APPS = [
     { id: 'inspection', group: 'practice', icon: '<path d="M9 4h6l1 2h3v14H5V6h3z"/><path d="m9 13 2 2 4-4"/>',
       ar: ['الكشف على المنشآت', 'تبني مسار كشف كاملاً من الصفر، فترى أدوات البناء وهي تعمل معاً.', ['الكيانات', 'النماذج', 'لوحات المعلومات']],
       en: ['Inspection', 'Build a full inspection workflow from scratch and see the builder tools work together.', ['Entities', 'Forms', 'Dashboards']] },
-    { id: 'correspondence', group: 'practice', soon: true, icon: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="m3 8 9 6 9-6"/>',
+    { id: 'correspondence', group: 'practice', icon: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="m3 8 9 6 9-6"/>',
       ar: ['المراسلات', 'تتابع دورة كتاب رسمي من إنشائه إلى أرشفته: الوارد والإحالة والرد والصادر.', ['المراسلات الرسمية', 'الموارد البشرية']],
       en: ['Correspondence', 'Follow an official letter from drafting to archive: incoming, referral, reply and outgoing.', ['Official correspondence', 'HR']] },
 ]

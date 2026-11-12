@@ -21,7 +21,7 @@ export const GUIDE_URLS = {
         dev: slash(env.GUIDE_DEV_URL_INSPECTION ?? 'http://127.0.0.1:4323/'),
     },
     correspondence: {
-        prod: slash(env.GUIDE_PROD_URL_CORRESPONDENCE ?? 'https://correspondence-guide.onrender.com/'),
+        prod: slash(env.GUIDE_PROD_URL_CORRESPONDENCE ?? 'https://correspondence-fwqp.onrender.com/'),
         dev: slash(env.GUIDE_DEV_URL_CORRESPONDENCE ?? 'http://127.0.0.1:4324/'),
     },
 }
