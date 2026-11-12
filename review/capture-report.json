@@ -1,0 +1,61 @@
+[
+  {
+    "name": "org-correspondence-tray",
+    "status": "captured",
+    "source": "https://ministryofeconomyandindustry.kayanos.app/official-correspondence/tray",
+    "markers": [
+      {
+        "n": 1,
+        "label": "مراسلة جديدة"
+      },
+      {
+        "n": 2,
+        "label": "بانتظار اعتمادي"
+      }
+    ],
+    "capturedOn": "2026-11-09T07:30:49.335Z",
+    "scope": "Read only. Empty compose is not a completed workflow."
+  },
+  {
+    "name": "org-correspondence-compose",
+    "status": "captured",
+    "source": "https://ministryofeconomyandindustry.kayanos.app/official-correspondence/compose",
+    "markers": [
+      {
+        "n": 1,
+        "label": "لا يمكنك حفظ المراسلات أو إرسالها بعد"
+      },
+      {
+        "n": 2,
+        "label": "الموضوع"
+      },
+      {
+        "n": 3,
+        "label": "المخاطَبون"
+      },
+      {
+        "n": 4,
+        "label": "حفظ كمسودة"
+      }
+    ],
+    "capturedOn": "2026-11-09T07:31:09.649Z",
+    "scope": "Read only. Empty compose is not a completed workflow."
+  },
+  {
+    "name": "org-correspondence-types",
+    "status": "captured",
+    "source": "https://ministryofeconomyandindustry.kayanos.app/official-correspondence/settings",
+    "markers": [
+      {
+        "n": 1,
+        "label": "أنواع المراسلات"
+      },
+      {
+        "n": 2,
+        "label": "إضافة نوع"
+      }
+    ],
+    "capturedOn": "2026-11-09T07:31:30.086Z",
+    "scope": "Read only. Empty compose is not a completed workflow."
+  }
+]

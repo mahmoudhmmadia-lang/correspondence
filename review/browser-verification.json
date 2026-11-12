@@ -1,0 +1,63 @@
+{
+  "checkedOn": "2026-11-11T19:22:44.226Z",
+  "scope": "Local guide only; not a live correspondence workflow",
+  "checks": [
+    "desktop/mobile, light/dark",
+    "all steps fit viewport",
+    "all screenshots decode; image zoom opens and closes",
+    "search navigates to dispatch step",
+    "reading completion persists after reload",
+    "no browser errors or missing resources"
+  ],
+  "evidence": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "file": "index",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "file": "c1",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "file": "index",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "file": "c1",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "file": "index",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "file": "c1",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "file": "index",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "file": "c1",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "correspondence-walkthrough",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-html.mjs",
+    "start": "node tools/serve-html.mjs",
+    "test": "node --test tools/guide.test.mjs",
+    "verify": "node tools/verify-browser.mjs"
+  }
+}

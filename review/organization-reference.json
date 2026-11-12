@@ -1,0 +1,309 @@
+{
+  "checkedOn": "2026-11-06",
+  "source": "https://ministryofeconomyandindustry.kayanos.app/",
+  "method": "Authenticated read-only metadata; no workflow executed",
+  "nodes": [
+    {
+      "parent_id": null,
+      "code": "MEI-DIT",
+      "name": {
+        "ar": "الإدارة العامة للتجارة الداخلية وحماية المستهلك",
+        "en": "General Directorate of Internal Trade and Consumer Protection",
+        "tr": "İç Ticaret ve Tüketicinin Korunması Genel Müdürlüğü",
+        "und": "الإدارة العامة للتجارة الداخلية وحماية المستهلك"
+      },
+      "id": "nodes:general_directorate_of_internal_trade_and_consumer_protection_ditcpsf",
+      "type": "إدارة عامة"
+    },
+    {
+      "parent_id": "nodes:directorate_of_consumer_protection_and_food_safety_ditcpsf",
+      "code": "DIT-CPSF-CP",
+      "name": {
+        "ar": "دائرة حماية المستهلك",
+        "en": "Consumer Protection Department",
+        "tr": "Tüketiciyi Koruma Dairesi",
+        "und": "دائرة حماية المستهلك"
+      },
+      "id": "nodes:consumer_protection_department_ditcpsfcp",
+      "type": "دائرة"
+    },
+    {
+      "parent_id": "nodes:general_directorate_of_internal_trade_and_consumer_protection_ditcpsf",
+      "code": "DIT-CPSF",
+      "name": {
+        "ar": "مديرية حماية المستهلك وسلامة الغذاء",
+        "en": "Directorate of Consumer Protection and Food Safety",
+        "tr": "Tüketicinin Korunması ve Gıda Güvenliği Müdürlüğü",
+        "und": "v"
+      },
+      "id": "nodes:directorate_of_consumer_protection_and_food_safety_ditcpsf",
+      "type": "مديرية"
+    }
+  ],
+  "positions": [
+    {
+      "id": "positions:field_inspection_team_leader_01_poscpfieldlead01",
+      "job_description_id": "job_descriptions:reys_fryq_alkshf_almydany_jdcpfieldlead",
+      "node_id": "nodes:consumer_protection_department_ditcpsfcp",
+      "name": {
+        "ar": "رئيس فريق الكشف الميداني — 01",
+        "en": "Field Inspection Team Leader — 01",
+        "tr": "Saha İnceleme Ekibi Lideri — 01",
+        "und": "رئيس فريق الكشف الميداني — 01"
+      },
+      "parent_id": "positions:head_of_the_consumer_protection_department_poscpsfcph",
+      "code": "POS-CP-FIELD-LEAD-01"
+    },
+    {
+      "id": "positions:field_researcher_01_poscpinspector01",
+      "job_description_id": "job_descriptions:bahth_mydany_jdcpinspector",
+      "node_id": "nodes:consumer_protection_department_ditcpsfcp",
+      "name": {
+        "ar": "باحث ميداني — 01",
+        "en": "Field Researcher — 01",
+        "tr": "Saha Araştırmacısı — 01",
+        "und": "باحث ميداني — 01"
+      },
+      "parent_id": "positions:field_inspection_team_leader_01_poscpfieldlead01",
+      "code": "POS-CP-INSPECTOR-01"
+    },
+    {
+      "id": "positions:head_of_the_consumer_protection_department_poscpsfcph",
+      "job_description_id": "job_descriptions:ivmxjslaqofxnu66dvl28",
+      "node_id": "nodes:consumer_protection_department_ditcpsfcp",
+      "name": {
+        "ar": "رئيس دائرة حماية المستهلك",
+        "en": "Head of the Consumer Protection Department",
+        "tr": "Tüketiciyi Koruma Dairesi Başkanı",
+        "und": "رئيس دائرة حماية المستهلك"
+      },
+      "parent_id": "positions:director_of_consumer_protection_and_food_safety_poscpsfdir",
+      "code": "POS-CPSF-CP-H"
+    },
+    {
+      "id": "positions:establishment_statements_auditor_01_poscpreviewer01",
+      "job_description_id": "job_descriptions:mdqq_kshwf_almnshaat_jdcpreviewer",
+      "node_id": "nodes:consumer_protection_department_ditcpsfcp",
+      "name": {
+        "ar": "مدقق كشوف المنشآت — 01",
+        "en": "Establishment Statements Auditor — 01",
+        "tr": "İşletme Dökümleri Denetçisi — 01",
+        "und": "مدقق كشوف المنشآت — 01"
+      },
+      "parent_id": "positions:head_of_the_consumer_protection_department_poscpsfcph",
+      "code": "POS-CP-REVIEWER-01"
+    }
+  ],
+  "members": [
+    {
+      "current_positions": [
+        {
+          "status": "active",
+          "position_id": "positions:field_inspection_team_leader_01_poscpfieldlead01",
+          "assignment_id": "assignments:ahmd_salm_experimental_democp001_field_inspection_team_leader_01_poscpfieldlead01",
+          "employment_type": "employee",
+          "in_probation_period": false,
+          "probation_date_until": null
+        }
+      ],
+      "code": "DEMO-CP-001",
+      "name": {
+        "ar": "أحمد سالم — تجريبي",
+        "en": "أحمد سالم — Experimental",
+        "tr": "أحمد سالم — Deneysel",
+        "und": "أحمد سالم — تجريبي"
+      },
+      "id": "members:ahmd_salm_experimental_democp001"
+    },
+    {
+      "current_positions": [
+        {
+          "status": "active",
+          "position_id": "positions:field_researcher_01_poscpinspector01",
+          "assignment_id": "assignments:nwr_hsn_tjryby_democp002_field_researcher_01_poscpinspector01",
+          "employment_type": "employee",
+          "in_probation_period": false,
+          "probation_date_until": null
+        }
+      ],
+      "code": "DEMO-CP-002",
+      "name": {
+        "ar": "نور حسن — تجريبي",
+        "und": "نور حسن — تجريبي"
+      },
+      "id": "members:nwr_hsn_tjryby_democp002"
+    },
+    {
+      "current_positions": [
+        {
+          "status": "active",
+          "position_id": "positions:establishment_statements_auditor_01_poscpreviewer01",
+          "assignment_id": "assignments:rym_khald_tjryby_democp003_establishment_statements_auditor_01_poscpreviewer01",
+          "employment_type": "employee",
+          "in_probation_period": false,
+          "probation_date_until": null
+        }
+      ],
+      "code": "DEMO-CP-003",
+      "name": {
+        "ar": "ريم خالد — تجريبي",
+        "und": "ريم خالد — تجريبي"
+      },
+      "id": "members:rym_khald_tjryby_democp003"
+    }
+  ],
+  "assignments": [
+    {
+      "status": "active",
+      "member_id": "members:rym_khald_tjryby_democp003",
+      "id": "assignments:rym_khald_tjryby_democp003_establishment_statements_auditor_01_poscpreviewer01",
+      "position_id": "positions:establishment_statements_auditor_01_poscpreviewer01"
+    },
+    {
+      "status": "active",
+      "member_id": "members:nwr_hsn_tjryby_democp002",
+      "id": "assignments:nwr_hsn_tjryby_democp002_field_researcher_01_poscpinspector01",
+      "position_id": "positions:field_researcher_01_poscpinspector01"
+    },
+    {
+      "status": "active",
+      "member_id": "members:ahmd_salm_experimental_democp001",
+      "id": "assignments:ahmd_salm_experimental_democp001_field_inspection_team_leader_01_poscpfieldlead01",
+      "position_id": "positions:field_inspection_team_leader_01_poscpfieldlead01"
+    }
+  ],
+  "groups": [
+    {
+      "code": "GRP-CP-FIELD-01",
+      "name": {
+        "ar": "فريق الكشف الميداني — 01",
+        "en": "Field Inspection Team — 01",
+        "tr": "Saha İnceleme Ekibi — 01",
+        "und": "فريق الكشف الميداني — 01"
+      },
+      "id": "groups:field_inspection_team_01_grpcpfield01"
+    },
+    {
+      "code": "GRP-CP-REVIEWERS",
+      "name": {
+        "ar": "مدققو كشوف المنشآت",
+        "und": "مدققو كشوف المنشآت"
+      },
+      "id": "groups:mdqqw_kshwf_almnshaat_grpcpreviewers"
+    }
+  ],
+  "jobDescriptions": [
+    {
+      "id": "job_descriptions:bahth_mydany_jdcpinspector",
+      "label": "باحث ميداني - JD-CP-INSPECTOR"
+    },
+    {
+      "id": "job_descriptions:mdqq_kshwf_almnshaat_jdcpreviewer",
+      "label": "مدقق كشوف المنشآت - JD-CP-REVIEWER"
+    },
+    {
+      "id": "job_descriptions:reys_fryq_alkshf_almydany_jdcpfieldlead",
+      "label": "رئيس فريق الكشف الميداني - JD-CP-FIELD-LEAD"
+    }
+  ],
+  "apps": [
+    {
+      "id": "apps:commercial_registers",
+      "title": {
+        "ar": "السجلات التجارية",
+        "en": "Commercial Registers",
+        "tr": "Ticaret Sicilleri",
+        "und": "السجلات التجارية"
+      }
+    },
+    {
+      "id": "apps:consumer_protection",
+      "title": {
+        "ar": "حماية المستهلك",
+        "en": "Consumer Protection",
+        "tr": "Tüketicinin Korunması",
+        "und": "حماية المستهلك"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "app_id": "apps:commercial_registers",
+      "title": {
+        "ar": "المنشآات التجارية",
+        "en": "Commercial establishments",
+        "tr": "Ticari işletmeler",
+        "und": "المنشآات التجارية"
+      },
+      "id": "app_sections:commercial_establishments"
+    },
+    {
+      "app_id": "apps:consumer_protection",
+      "title": {
+        "ar": "السجلات",
+        "en": "Records",
+        "tr": "Kayıtlar",
+        "und": "h"
+      },
+      "id": "app_sections:records"
+    }
+  ],
+  "entities": [
+    {
+      "label": "commercial_establishments",
+      "title": {
+        "ar": "المنشآت التجارية",
+        "en": "Commercial establishments",
+        "tr": "Ticari işletmeler",
+        "und": "الشكاوى"
+      },
+      "key": "commercial_establishments",
+      "id": null
+    }
+  ],
+  "establishmentNames": [
+    {
+      "id": "commercial_establishments:frn_alamanh",
+      "label": "فرن الأمانة"
+    },
+    {
+      "id": "commercial_establishments:mtam_alyasmyn",
+      "label": "مطعم الياسمين"
+    },
+    {
+      "id": "commercial_establishments:swbr_marknt_alnwr",
+      "label": "سوبر ماركنت النور"
+    }
+  ],
+  "roles": [
+    {
+      "id": "mraqb_hmayt_almsthlk",
+      "title": "مراقب حماية المستهلك",
+      "scope": "organizations"
+    },
+    {
+      "id": "initiator",
+      "title": "Initiator",
+      "scope": "forms:001"
+    },
+    {
+      "id": "mdqq_kshwf_almnshat",
+      "title": "مدقق كشوف المنشآت",
+      "scope": "forms:001"
+    }
+  ],
+  "forms": [
+    {
+      "id": "001",
+      "name": {
+        "ar": "كشف منشأة تجارية لطلب سجل تجاري",
+        "en": "Commercial Establishment Inspection for Registration",
+        "tr": "Ticaret Sicili Başvurusu İçin İşletme İncelemesi",
+        "und": "كشف منشأة تجارية لطلب سجل تجاري"
+      },
+      "icon": null,
+      "app_id": "consumer_protection",
+      "app_section_id": "records"
+    }
+  ]
+}
